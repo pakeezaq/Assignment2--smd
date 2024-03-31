@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/restaurant_nameR"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:autofillHints="Name" />
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/locationR"
+        android:layout_below="@id/editTextName"
+        android:layout_margin="16dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phoneR"
+        android:inputType="phone"
+        android:layout_below="@id/editTextLocation"
+        android:layout_margin="16dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/descriptionR"
+        android:layout_below="@id/editTextPhone"
+        android:layout_margin="16dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextRatings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ratingsR"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/editTextDescription"
+        android:layout_margin="16dp"
+        android:padding="8dp"/>
+
+    <!-- Add a Save button to save the restaurant details -->
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_below="@id/editTextRatings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+</RelativeLayout>

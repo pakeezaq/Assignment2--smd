@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">assign2</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="location">Location</string>
+    <string name="phone">phone</string>
+    <string name="description">Description</string>
+    <string name="rating">Rating</string>
+    <string name="add">Add</string>
+    <string name="filter">Filter</string>
+    <string name="add1">Add</string>
+    <string name="filter1">Filter</string>
+    <string name="descriptionR">Description</string>
+    <string name="ratingsR">Ratings</string>
+    <string name="save">Save</string>
+    <string name="restaurant_nameR">Restaurant Name</string>
+    <string name="locationR">Location</string>
+    <string name="phoneR">Phone</string>
+</resources>
